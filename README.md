@@ -58,7 +58,7 @@ No primeiro envio ao repositorio remoto, suas alterações existem apenas na sua
 Voce precisa informar o destino da branch `time-x`.
 Para enviar suas alterações para o repositorio remoto, digite o comando abaixo.
 ```shell
-git -u origin time-x
+git push -u origin time-x
 ```
 Depois de ter criado a branch no prepositorio remoto com o comando acima; voce pode realizar o push simplesmente com o comando abaixo.
 ```shell
