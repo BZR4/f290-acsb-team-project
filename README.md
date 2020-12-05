@@ -7,7 +7,7 @@ Este projeto será desenvolvido em conjunto por 4 times do componente curricular
 ### Clonar o projeto
 Clone o projeto em um diretorio de sua escolha atraves do `Git-Bash`:
 ```shell
-https://github.com/BZR4/f290-acsb-team-project.git
+git clone https://github.com/BZR4/f290-acsb-team-project.git
 ```
 
 ### Atualizar o projeto
