@@ -108,6 +108,10 @@ p {
     color: yellow;
 }
 
+h4{
+    color: #ebebeb;
+}
+
 .resumo{
 
     display: flex;
