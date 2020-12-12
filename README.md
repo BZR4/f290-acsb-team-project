@@ -28,7 +28,7 @@ Time | Integrantes | Tema | Página
 TIME 1 | Nicolas e Silvio | Cegueira e Baixa Visão | Tema
 TIME 2 | Fabio e Diego | Auditiva | Tema e página Sobre
 TIME 3 | Edmilson e Jonas | Cognitiva | Tema e página Contato
-TIME 4 | Gabriel e Lucas | Motora | Tema e página Principal
+TIME 4 | Gabriel e Lucas e Allan | Motora | Tema e página Principal
 
 ##### Crie a branch de seu time, com exceção do time-3
 Para criar sua branch digite o comando abaixo tocando o `X` pelo numero do seu time.
