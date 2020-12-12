@@ -27,6 +27,7 @@ main {
     margin-top: 80px;
 }
 
+
 /* LINKS */
 
 a {
@@ -41,7 +42,7 @@ a:link {
 }
 
 a:visited {
-    color: #7a7a8c;
+    color: #afffff;
 }
 
 a:hover {
@@ -99,6 +100,7 @@ article header {
     padding-left: 5px;
     line-height: 36px;
 }
+
 .autor:hover {
     border-left: 8px solid #ff367c;
 }
@@ -131,7 +133,9 @@ h1 {
     color: azure;
 }
 
+
 /* Acessibilidade */
+
 
 /* Destaque no foco  - Alterem conforme suas preferencias */
 
@@ -139,6 +143,7 @@ a:focus {
     border: 2px solid white;
     box-sizing: border-box;
 }
+
 
 /* Skip Link */
 
@@ -162,8 +167,10 @@ a:focus {
     border-radius: 4px;
 }
 
+
 /*Responsivo */
-.DeFisica{
+
+.DeFisica {
     display: flex;
 }
 
@@ -175,10 +182,7 @@ a:focus {
     #autor-container {
         display: block;
     }
-    
-    .DeFisica{
-    display: block;
+    .DeFisica {
+        display: block;
     }
 }
-
-
