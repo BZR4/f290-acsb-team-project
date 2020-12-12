@@ -23,21 +23,13 @@
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
   text-align: center;
+  border: 3px solid #e5306f;
 }
 
 
 /* Links inside the dropdown */
 .dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  background: linear-gradient(to bottom, #e5306f 0%, #ff8902 100%);
-  display: block;
-  width: calc(100% - 20px);
-    text-transform: uppercase;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    border-bottom: 2px solid #e5306f;
+  color: #7a7a8c;
 }
 
 /* Change color of dropdown links on hover */
