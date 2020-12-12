@@ -5,22 +5,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BLOG ACBS</title>
-    <link rel="stylesheet" href="../../css/style.css">
-    <link rel="stylesheet" href="style-time-4.css">
+    <link rel="stylesheet" href="css/style-time-4.css">
+    <link rel="stylesheet" href="css/menu.css">
 </head>
 
 <body>
-    <nav>
+    <header class="header" >
         <div class="conteudo-menu">
-            <div class="logo texto-gradiente">BLOG ACBS</div>
-            <div class="menu">
-                <a href="./index-Home.html">Home</a>
-                <a href="./motora.html">Motora</a>
-                <a href="#">Tendências</a>
-                <a href="#">Contato</a>
-            </div>
+            <h1 id="h1_menuPrincipal" class="texto-gradiente">BLOG ACBS</h1>
+            <input type="checkbox" id="btn_Nav_Principal">
+            <label for="btn_Nav_Principal" class="texto-gradiente">&#9776;</label>
+            <nav class="menu">
+                <h1 id="logo" class="texto-gradiente">BLOG ACBS</h1>
+                <ul>
+                    <li><a class="navA" href="./index-Home.html">Home</a></li>
+                    <li><a class="navA" href="./motora.html">Motora</a></li>
+                    <li><a class="navA" href="#">Sobre</a></li>
+                    <li><a class="navA" href="#">Contato</a></li>
+                </ul>
+
+            </nav>
         </div>
-    </nav>
+    </header>
     <main>
         <header tabindex="0">
             <h1 >ACESSIBILIDADE - Deficiencia Motora</h1>

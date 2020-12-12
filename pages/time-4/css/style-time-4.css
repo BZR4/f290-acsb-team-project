@@ -1,11 +1,7 @@
-* {
-    margin: 0;
-    padding: 0;
-}
 
 @font-face {
     font-family: Sanchez;
-    src: url(../fonts/Sanchez-Regular.ttf);
+    src: url(../../../fonts/Sanchez-Regular.ttf);
 }
 
 :root {
@@ -30,31 +26,6 @@ main {
     width: 720px;
     margin: 0 auto;
     margin-top: 80px;
-}
-
-nav {
-    background-color: var(--cor-body-fundo-escuro);
-    position: fixed;
-    top: 0;
-    width: 100%;
-    border-bottom: 1px solid #767297;
-}
-.conteudo-menu {
-    width: 720px;
-    margin: 0 auto;
-}
-
-.logo {
-    font-family: 'Anton', sans-serif;
-    color: var(--cor-accent);
-    float: left;
-    font-size: 2em;
-    font-weight: 900;
-    margin: 10px 0;
-}
-
-.menu {
-    float: right;
 }
 
 
@@ -90,12 +61,13 @@ a:hover {
     
 }
 
-.texto-gradiente2 {
+.texto-gradiente {
     text-transform: uppercase;
     background: linear-gradient(to right, #E5306F 0%, #FF8902 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 
 .postagem h1 {
     color: #E5306F;
@@ -196,65 +168,4 @@ a:focus {
 #saiba-mais:hover,#saiba-mais:focus{
     border: 4px  solid  white;
     border-radius: 4px;
-}
-#btn_Nav_Principal {
-    display: none;
-  }
-  
-  label[for="btn_Nav_Principal"] {
-    display: none;
-  }
-  label[for="btn_Nav_Principal"] {
-    padding: 5px;
-    background-color: grey;
-    color: white;
-    text-align: center;
-    font-size: 39px;
-    line-height: 50px;
-    cursor: pointer;
-    width: 50px;
-    height: 50px;
-  }
-  .texto-gradiente {
-      display: none;
-  }
-/* Menu Resposive */
-
-@media screen and (max-width: 600px){
-    label[for="btn_Nav_Principal"] {
-        display: inline-block;
-        margin-top: 5px;
-        margin-left: calc(100% - 70px);
-      }
-      #btn_Nav_Principal:checked ~ .menu {
-        margin-left: 0%;
-      }
-      .menu_Principal_Total {
-        background-color: rgba(255, 255, 255, 0.747);
-        color: black;
-      }
-      .menu {
-        background-color: rgba(255, 255, 255, 1);
-        width: 100%;
-        margin-top: 5px;
-        margin-left: -100%;
-        -webkit-transition: all .4s;
-        transition: all .4s;
-        float: none;
-      }
-      .menu a{
-          display: block;
-          text-align: center;
-          border-bottom: 2px solid black;
-      }
-      .texto-gradiente2 {
-          display: none;
-      }
-      .texto-gradiente{
-          top: 20px;
-          left: 10px;
-          position: absolute;
-          display: inline;
-          
-      }
-    }
+} 
