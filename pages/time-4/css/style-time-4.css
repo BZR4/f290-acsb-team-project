@@ -163,6 +163,9 @@ a:focus {
 }
 
 /*Responsivo */
+.DeFisica{
+    display: flex;
+}
 
 @media (max-width: 600px) {
     main,
@@ -172,4 +175,10 @@ a:focus {
     #autor-container {
         display: block;
     }
+    
+    .DeFisica{
+    display: block;
+    }
 }
+
+
