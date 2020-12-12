@@ -161,8 +161,14 @@
       text-align: center;
     }
     .menu ul li a {
-        width: 100%;
+        width: calc(100% - 50px);
+        text-transform: uppercase;
+        background: linear-gradient(to right, #e5306f 0%, #ff8902 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        border-bottom: 2px solid #e5306f;
+
       }
-    
+
   }
 
