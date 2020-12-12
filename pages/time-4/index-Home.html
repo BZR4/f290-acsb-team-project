@@ -11,22 +11,22 @@
 </head>
 
 <body>
-    <header class="header" >
-            <div class="conteudo-menu">
-                <h1 id="h1_menuPrincipal" class="texto-gradiente">BLOG ACBS</h1>
-                <input type="checkbox" id="btn_Nav_Principal">
-                <label for="btn_Nav_Principal" class="texto-gradiente">&#9776;</label>
-                <nav class="menu">
-                    <h1 id="logo" class="texto-gradiente">BLOG ACBS</h1>
-                    <ul>
-                        <li><a   href="./index-Home.html">Home</a></li>
-                        <li><a  href="./motora.html">Motora</a></li>
-                        <li><a  href="#">Sobre</a></li>
-                        <li><a  href="#">Contato</a></li>
-                    </ul>
+    <header class="header">
+        <div class="conteudo-menu">
+            <h1 id="h1_menuPrincipal" class="texto-gradiente">BLOG ACBS</h1>
+            <input type="checkbox" id="btn_Nav_Principal">
+            <label for="btn_Nav_Principal" class="texto-gradiente">&#9776;</label>
+            <nav class="menu">
+                <h1 id="logo" class="texto-gradiente">BLOG ACBS</h1>
+                <ul>
+                    <li><a href="./index-Home.html">Home</a></li>
+                    <li><a href="./motora.html">Motora</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
 
-                </nav>
-            </div>
+            </nav>
+        </div>
     </header>
 
     <main>
@@ -91,6 +91,16 @@
     <footer style="text-align: center;">
         <p style="color: white;">©Copyright 2020 pela turma da materia de acessibilidade.</p>
     </footer>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
 </body>
 
 </html>
