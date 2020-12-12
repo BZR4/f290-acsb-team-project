@@ -169,6 +169,18 @@
         border-bottom: 2px solid #e5306f;
 
       }
+      .dropdown .dropdown-content{
+        position: relative;
+        
+      }
+      .dropdown .dropdown-content a {
+        text-transform: uppercase;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      border-bottom: 2px solid #e5306f;
+      width: calc(100% - 20px);
+      
+      }
 
   }
 
